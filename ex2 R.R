@@ -24,11 +24,11 @@ rm(list=ls())    # remove any objects in current environment
 
 # change to working directory - this is the directory R will save files to
 # --> CHANGE THE WORKING DIRECTORY TO YOUR OWN PROJECT SPECIFIC FOLDER. 
-setwd("M:")
+setwd("C:/Users/LLR User/OneDrive - The University of Nottingham/1. Others/Work/Intro-to-USoc")
 
 # set up a file path to data directory
 # --> CHANGE THE FILE PATH TO WHERE THE DATA IS STORED
-dir <- "//iserlin1.essex.ac.uk/ConferenceData/ukhlsdata/stata15_se/"
+dir <- "data/UKDA-6614-stata/stata/stata13_se/"
 
 # open log file
 # split =TRUE means that all output will be sent to current screen as well as the log file
@@ -42,7 +42,7 @@ sink(file="Example2_output.log", split=TRUE)
 #********************************************************
 
 # read in the datafile a_indresp using read_dta from the haven package
-a_indresp <- read_dta(file=paste0(dir, "ukhls_w1/a_indresp.dta"))
+a_indresp <- read_dta(file=paste0(dir, "ukhls/a_indresp.dta"))
 
 # create a new dataframe containing only the variables a_hidp pidp a_istrtdaty a_sex_dv a_mastat_dv a_julkjb
 # a_sclfsato a_paygu_dv
