@@ -22,6 +22,8 @@ for(i in 1:length(a_hhresp)) {
 label_dt <- data.table(var = colnames(a_hhresp),
                        label = label)
 
+print("This is orginally from the testing branch")
+
 ## Search for variables with "income" in description
 income_vars <- c()
 for (i in 1:nrow(label_dt)) {
