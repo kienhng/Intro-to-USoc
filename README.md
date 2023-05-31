@@ -1,4 +1,4 @@
-# Notes on Understanding Society dataset
+# Notes on Understanding Society (USoc) dataset
 
 > These information are collected mainly from the course **[Introduction to Understanding Society using R](https://open.essex.ac.uk/course/view.php?id=221)** provided by Essex University.
 > 
@@ -18,7 +18,7 @@ FAQs on the UK Data Service website: https://beta.ukdataservice.ac.uk/datacatalo
 - Identiying individuals and households:
     - Using **`pidp`**: Unique person identifier to link across waves and across files within the same wave. This identifier is constant, unique within and across waves.
     - Using **`w-pidp`**: Household identifier to identify members of the same households within one wave. Not constant, so *cannot be used to link households across waves* (no concept of longitudinal household)
-- **Data Structure (Graphs only)**
+- **USoc Data Structure (Graphs only)**
     - There 6 main data files in each wave, namely _hhresp_, _hhsamp_, _indall_, _indresp_, _youth_, _child_. The following graph shows how all data files are connected. The letters _a_, _b_, _c_, ... denote the ordinal number of wave.
     
     <a href="https://fluorescent-radar-fd5.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F440d5081-0121-4924-b138-226b296428ff%2FUntitled.png?id=85da995e-52da-4415-ae44-c33e51315ab5&table=block&spaceId=64069652-53fe-4133-b189-a19caef06fe3&width=2000&userId=&cache=v2"><img src="https://fluorescent-radar-fd5.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F440d5081-0121-4924-b138-226b296428ff%2FUntitled.png?id=85da995e-52da-4415-ae44-c33e51315ab5&table=block&spaceId=64069652-53fe-4133-b189-a19caef06fe3&width=2000&userId=&cache=v2" align="center" width="600px"></a>
