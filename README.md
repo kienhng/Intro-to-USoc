@@ -2,7 +2,7 @@
 Getting to know the Understanding Society Database. Based on online course provided by Essex University.
 # Notes on Understanding Society dataset
 
-> These information are collected mainly from the course ****[Introduction to Understanding Society using R](https://open.essex.ac.uk/course/view.php?id=221)** provided by Essex University.
+> These information are collected mainly from the course ***[Introduction to Understanding Society using R](https://open.essex.ac.uk/course/view.php?id=221)** provided by Essex University.
 > 
 
 ## 1. Key materials
